@@ -1,0 +1,76 @@
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Background image
+ */
+.bg-body {
+  background-image: url('../img/background.png'); /* Ajusta la ruta de la imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*
+ * Menu
+ */
+ .bg-body-tertiary-menu {
+  background-image: url('../img/menu.png'); /* Ajusta la ruta de la imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*
+ * Specialty
+ */
+ .bg-body-tertiary-specialty {
+  background-image: url('../img/specialty.png'); /* Ajusta la ruta de la imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*
+ * Services
+ */
+ .bg-body-tertiary-services {
+  background-image: url('../img/services.png'); /* Ajusta la ruta de la imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
